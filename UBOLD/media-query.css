@@ -1,0 +1,276 @@
+@media (max-width: 1230px){
+    .offers{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 4rem;
+      }
+      .pricing-plan{
+          margin-bottom: 2rem;
+          padding: auto 10rem;
+      }
+}
+@media (max-width: 1200px){
+    #home{
+        display: block;
+    }
+    .home-img{
+        width: 60%;
+    }
+    /*---------- Demos ----------*/ 
+    .grid-container-2 {
+        grid-template-columns: auto auto;
+    }
+    /*---------------- Contact ----------------*/
+    .contact-us{
+        grid-template-columns: auto;
+        justify-content: stretch;
+        align-items: stretch;
+        grid-gap: 2rem;
+      }
+}
+@media (max-width:1000px ){ /* For Tablet */
+    section{
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+    /*-------------header start-----------*/
+    nav{
+        margin: 1.35rem 4rem;
+    }
+    .nav_links{
+        position: fixed;
+        width: 100%;
+        height: 60%;
+        top: -24rem;
+        left: 5rem;
+        text-align: left;
+    }
+    .nav_links li{
+        display: block;
+        line-height: 2.4rem;
+    }
+    .nav-button{
+        position: fixed;
+        width: 100%;
+        height: 60%;
+        top: -24rem;
+        left: 4rem;
+        text-align: left;
+        /*-------------*/
+        background-color: rgb(56, 188, 240);
+        width: 115px;
+        height: 45px;
+        text-align: center;
+        border-style: none;
+        border-radius: 4%;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        color:#fff;
+        font-size: 0.9rem;
+    }
+    /*-------------toggle menu-----------*/
+    #toggle-icon{
+        display: block;
+    }
+    .show{
+        transition: ease-in-out;
+    }
+    .nav_links.show{
+        top: 4rem;
+        transition: 0.1s ease;
+    }
+    .nav-button.show{
+        top: 21rem;
+        transition: .3s ease;
+    }
+    /*------------scrolling edits---------*/
+    .scrolling-active nav{
+        margin: .5rem 4rem;
+    }
+    .scrolling-active.show {
+        height: 24rem;
+    }
+    .scrolling-active .nav_links , .scrolling-active .nav-button{
+        margin-top: -1rem;
+        transition-duration: 0.5s;
+    }
+    /*-------------Home start-----------*/
+    #home{
+        padding-top: 8rem;
+        padding-bottom: 30%;
+    }
+    .home-h{
+        font-size: 26px;
+    }
+     /*-------------Clients Logo-----------*/
+     #border-client{
+        margin: -10rem 4rem;
+        padding: 1rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .client-logo{
+        margin: 1rem 1rem;
+    }
+    /*------------- Features -----------*/
+    .grid-container-1 {
+        grid-template-columns: auto auto;
+    }
+    /*---------- Demos ----------*/ 
+    .grid-container-2 {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    /*---------- Ultra features ----------*/ 
+    #ultra-features{
+        padding-bottom: 2rem;
+    }
+    .ulf{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 10rem;
+    }
+    .ulf-img{
+        max-width: 100%;
+    }
+    /*---------- Pricing ----------*/ 
+    .bg-shape{
+        display: none;
+      }
+      /*---------------- Faqs ----------------*/
+    .faqs-grid{
+        grid-template-columns: auto;
+    }
+    /*---------------- Clients ----------------*/
+    .clients-flex{
+        grid-template-columns: auto;
+    }
+    /*---------------- Contact ----------------*/
+    .our-contact{
+        display: block;
+        margin-top: 1rem;
+    }
+    .ctn{
+        margin-bottom: 1.5rem;
+    }
+    .bg-shape-light{
+        height: 15rem;
+    }
+    /*--------------- footer ---------------*/
+    footer{
+        padding-right: 4rem;
+        padding-left: 4rem;
+      }
+    .row-1{
+        display: grid;
+        grid-template:
+        'col-1 col-1 col-1 col-1 col-1 col-1' 
+        'col-2 col-2 col-2 col-3 col-3 col-3' 
+        'col-4 col-4 col-4 col-5 col-5 col-5';
+    }
+    .col-1{
+        grid-area: col-1;
+        max-width: none;
+        margin-bottom: 2rem;
+    }
+    .col-2{grid-area: col-2;}
+    .col-3{grid-area: col-3;}
+    .col-4{grid-area: col-4;}
+    .col-5{grid-area: col-5;}
+    .col-6{grid-area: col-6;}
+    .copyrights{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:600px ){ /* For Phone */
+    section{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    /*-------------header start-----------*/
+    nav{
+        margin: 1.35rem 1rem;
+    }
+    .nav_links{
+        position: fixed;
+        left: 2rem;
+    }
+    .nav_links li{
+        display: block;
+        line-height: 2.3rem;
+    }
+    .nav-button{
+        position: fixed;
+        height: 60%;
+        left: 1rem;
+        /*-------------*/
+        background-color: rgb(56, 188, 240);
+        width: 115px;
+        height: 45px;
+        text-align: center;
+        border-style: none;
+        border-radius: 4%;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        color:#fff;
+        font-size: 0.9rem;
+    }
+    /*------------scrolling edits---------*/
+    .scrolling-active nav{
+        margin: .5rem 1rem;
+    }
+    /*-------------header done-----------*/
+
+    /*-------------home start-----------*/
+    #home{
+        padding-bottom: 35%;
+    }
+    .home-h{
+        font-size: 23px;
+    }
+    #home label{
+        flex-direction: column;
+    }
+    #insert{
+        margin-bottom: 0.5rem;
+    }
+    /*-------------Clients Logo-----------*/
+    #border-client{
+        margin-top: -7rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    /*------------- Features -----------*/
+    .grid-container-1 {
+        grid-template-columns: auto;
+    }
+    /*---------------- Contact ----------------*/
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .bg-shape-light{
+        display: none;
+    }
+      /*--------------- footer ---------------*/
+      footer{
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+    .row-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .row-2{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
